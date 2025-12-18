@@ -1,0 +1,363 @@
+
+/* MEDIA QUERY */
+
+
+
+/* ----- CSS général/global de la page ----- */
+
+.montserrat-monserratfont {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+    /* body */
+body {
+    margin: 0%;
+}
+
+    /* yellow stars styling */
+i {
+    color: rgba(255,199,0,1);
+    width: 1.258rem;
+    height: 1.2rem;
+}
+
+.nostar {
+    color: rgba(255,199,0,0.3);
+}
+
+ul {
+    list-style-type: none;
+}
+
+    /* input CSS : navbar et section: nous contacter*/
+::placeholder {
+    color: rgba(255,255,255,1);
+}
+
+.connexion-btn {
+    background-color: rgba(245, 245, 245, 1);
+    color : rgba(21,34,55,1);
+    font-weight: 500;
+    font-size: 0.938rem;
+    line-height: 100%;
+    letter-spacing: -1.5%;
+    text-align: center;
+    width: 8.125rem;
+}
+
+.inscription-btn {
+    background-image: linear-gradient(to right, rgba(68,221,138,1), rgba(21, 183, 226,0.8));
+    color: rgba(21,34,55,1);
+}
+    /* prix des formations */
+.final-price {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.initial-price {
+    font-weight: 400;
+    font-size: 0.625rem;
+    text-decoration: line-through;
+
+}
+
+/* ----- Navbar ----- */
+
+.topnavbar {
+    background-color: rgba(21,34,55,1);
+}
+
+li {
+    color: rgba(245,245,245,1);
+}
+
+/* ----- Class Hero ----- */
+
+.hero-image {
+    background-image: linear-gradient(to right, rgba(68,221,138,0.8),rgba(21, 183, 226,0.8)), url("./assets/images/bg-header.png");
+    height: 28.125rem;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-title {
+    color: rgba(21,34,55,1);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.hero-description {
+    color: rgba(0,0,0,1);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.hero-btn {
+    background-color: rgba(255,255,255,1);
+    color: rgba(21,34,55,1);
+    font-weight: 500;
+    font-size: 0.938rem;
+}
+
+/* ----- Formations populaires ----- */
+
+.formations-populaires {
+    background-color: rgba(255,255,255,1);
+    height: 39.5rem;
+    max-width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 1.875rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.fp-title {
+    color: rgba(21,34,55,1);
+    font-weight: 800;
+    font-size: 1.875rem;
+    margin-left: 6.063rem;
+    margin-top: 1.875rem;
+}
+
+.fp-reduction {
+    display: flex;
+    background-color: rgba(21,34,55,1);
+    width: 7.5rem;
+    height: 1.974rem;
+    border-radius: 5.813rem;
+    color: rgba(245,245,245,1);
+}
+
+.fp-card-title {
+    color: rgba(21,34,55,1);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.fp-card-text {
+    color: rgba(21,34,55,1);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.btn-dark {
+    background-color: rgba(21,34,55,1);
+    color: rgba(245,245,245,1);
+    font-weight: 500;
+    font-size: 0.938rem;
+}
+
+/* ----- Formations récentes ----- */
+
+.formations-recentes {
+    background-color: rgb(21,34,55,1);
+}
+
+.fr-title {
+    color: rgba(245,245,245,1);
+    font-weight: 800;
+    font-size: 1.875rem;
+    margin-left: 6.063rem;
+    margin-top: 1.875rem;
+}
+
+.fr-card-title {
+    color: rgba(245,245,245,1);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.fr-card-text {
+    color: rgba(255,255,255,1);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.fr-reduction {
+    background-color: rgba(245,245,245,1);
+    width: 7.5rem;
+    height: 1.974rem;
+    border-radius: 5.813rem;
+    color: rgba(21,34,55,1);
+}
+
+.btn-light {
+    background-color: rgba(245,245,245,1);
+    color: rgba(21,34,55,1);
+    font-weight: 500;
+    font-size: 0.938rem;
+}
+
+/* ----- Avis clients ----- */
+
+.avis-title {
+    color: rgba(21,34,55,1);
+    font-weight: 900;
+    font-size: 1.875rem;
+}
+
+.avis-card-title {
+    color : rgba(21,34,55,1);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.avis-card-text {
+    color: rgba(0,0,0,0.8);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.photo-avis {
+    clip-path: circle(50%);
+}
+
+
+/* ----- Avantages ----- */
+
+.avantages {
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.avantages-title {
+    color: rgba(21,34,55,1);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.875rem;
+}
+
+.avantages-text {
+    color: rgba(0,0,0,0.8);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: -1.5%;
+}
+
+.avantages-icons {
+    height: 1.875rem;
+    width: 1.875rem;
+}
+
+/* ------ Créer une formation avec Klivio ----- */
+
+.create {
+    background-color: rgba(68,221,138,1);
+}
+
+.create-title {
+    color: rgba(21,34,55,1);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.create-text {
+    color: rgba(0,0,0,1);
+}
+
+/* ----- A propos ----- */
+
+.about-container {
+    background-color: rgba(245,245,245,1);
+}
+
+.about-title {
+    color: rgba(21,34,55,1);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.about-text {
+    color: rgba(21,34,55,1);
+    font-weight: 400;
+}
+
+.about-img {
+    background-color: rgba(21,34,55,1);
+}
+
+/* ----- Nous contacter ----- */
+
+input, textarea {
+    background-color: rgba(21,34,55,1);
+    color: rgba(255,255,255,1);
+}
+
+.contact-title {
+    color: rgba(21,34,55,1);
+    text-transform: uppercase;
+}
+
+.contact-btn {
+    background-color: rgba(68,221,138,1);
+    color: rgba(21,34,55,1);
+    font-weight: 500;
+}
+
+/* ------ Footer ------ */
+
+footer {
+    background-color: rgba(21,34,55,1);
+}
+
+.legal-mentions {
+    color: rgba(255,255,255,1);
+    font-weight: 700;
+}
+
+.legal-title, .coordinates-title {
+    font-weight: 700;
+}
+
+.legal-text, .coordinates-text {
+    font-weight: 400;
+}
+
+.coordinates {
+    color: rgba(255,255,255,1);
+}
+
+.credit {
+    color: rgba(255,255,255,1);
+}
+
+.social-text {
+    color: rgba(255,255,255,1);
+}
+
+.fa-brands {
+    color: rgba(245,245,245,1);
+}
+
+/* ----------------------------- CSS Flexbox/* ----------------------------- */
+
+.fp-cards, .fr-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    flex : 1;
+    flex-wrap: wrap;
+}
+
+.card img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+
